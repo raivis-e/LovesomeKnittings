@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+
+body {
+  background-image: url(assets/pattern.jpg) !important;
+  font-family: "Playfair Display", sans-serif !important;
+}
+.logo {
+  color: rgb(184, 100, 199);
+}
+
+.bg-custom {
+  background-color: #c9c9c9;
+}
+
+.img-responsive {
+  min-width: 350px !important;
+  width: 1400px !important;
+  max-width: 60vw !important;
+  min-height: 300px !important;
+  height: 800px !important;
+  max-height: 60vw !important;
+  border-radius: 50px;
+  border: rgb(184, 100, 199);
+  border-style: solid;
+  border-width: medium;
+}
+.carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.carousel-caption {
+  color: rgb(255, 255, 255) !important;
+  font-size: large !important;
+}
+
